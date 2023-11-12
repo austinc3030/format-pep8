@@ -17,8 +17,7 @@ def format_python_file(input_file, output_file=None):
             with open(output_file, 'w') as f:
                 f.write(formatted_code)
         else:
-            # If no output file is specified, print the formatted code to 
-the console
+            # If no output file is specified, print the formatted code to the console
             print(formatted_code)
     
     except Exception as e:
@@ -36,4 +35,3 @@ if __name__ == "__main__":
         format_python_file(input_file, output_file)
     else:
         format_python_file(input_file)
-

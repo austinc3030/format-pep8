@@ -17,8 +17,7 @@ def format_python_file(input_file, output_file=None):
             with open(output_file, 'w') as f:
                 f.write(formatted_code)
         else:
-            # If no output file is specified, overwrite the input file 
-with the formatted code
+            # If no output file is specified, overwrite the input file with the formatted code
             with open(input_file, 'w') as f:
                 f.write(formatted_code)
     
@@ -41,4 +40,3 @@ if __name__ == "__main__":
 
     input_directory = sys.argv[1]
     format_python_files_in_directory(input_directory)
-
