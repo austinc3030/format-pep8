@@ -1,4 +1,4 @@
-#!python3
+#!/bin/python
 
 import autopep8
 import os
